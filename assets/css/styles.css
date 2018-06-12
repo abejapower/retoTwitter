@@ -1,0 +1,81 @@
+body{
+    background-color: #e6ecf0;
+    color:blue;
+}
+h1{
+    text-align: center;
+}
+/* Reseteo márgenes browser y color body */
+body {
+	margin: 10 auto;
+	background-color: #e6ecf0;
+}
+
+/* Estilos Header */
+header {
+	background-color: lightskyblue;
+    text-align: center;
+    border: #4E4D53;
+    padding: 1em;
+}
+
+textarea {
+	width: 30%;
+	height: 4em;
+	color: #4E4D53;
+	font-size: 15px;
+	padding: 1em;
+	border-radius: 1em;
+	border: none;
+    margin: 0 auto;
+    float: right;
+}
+
+/* Estilos botón agregar */
+#btn {
+	background-color: #66AEC7;
+	border: 0px;
+	cursor: pointer;
+	text-align: center;
+	margin: 3em auto;
+	width: 130px;
+	height: 30px;
+	display: block;
+    color: #FFF;
+    float: right;
+}
+
+#btn:hover {
+	background-color: #5590A6;
+}
+
+#btn:focus, textarea:focus{
+	outline: none;
+}
+
+/* Estilos contenedor comentarios */
+#comt {
+	border-radius: 0.4em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+	padding: 0 16%;
+}
+
+#comt span {
+	margin-left: 1em;
+}
+
+#comt div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+p {
+	display: inline-block;
+	margin-left: 0.5em;
+}
+
